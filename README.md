@@ -89,7 +89,12 @@ __Sprachausgaben__
 > {{|> Deutsch Female}}
 > Hallo liebe LiaScript Interessierte!
 
-> Die Stärke von LiaScript liegt in der Idee eines einfachen Textdokumentes, das ohne Serverstruktur direkt im Browser ausgeführt wird. Damit unterstützt LiaScript die Idee von Open Educational Resources (OER).
+__Kombinationsmöglichkeiten__
+
+    {{|> US English Male}}
+Although [[ him | (he)]] usually [[walk |(walks)]] to school, today [[ him | (he)]] [[ are | (is)]] taking the bus because it [[ rain | (rains)]].
+
+> Die Stärke von LiaScript liegt in der Idee der einfachen Sprache, die beliebig erweitert werden kann und es erlaubt Elemente manigfaltig zur rekombinieren. Für den Austausch und die Erstellung von Lehrinhalten wird nur eine Textdatei benötigt, die Interpretation der Kurse erfolgt direkt im Browser, ohne zentralen Server oder Nutzermanagement. Damit unterstützt LiaScript die Idee von Open Educational Resources (OER).
 
 !?[Twillo](https://www.youtube.com/watch?v=2_aE9SwN1Rs)
 

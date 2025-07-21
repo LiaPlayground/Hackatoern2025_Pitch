@@ -9,6 +9,8 @@ language: de
 
 narrator: Deutsch Male
 
+edit:     true
+
 mode:     Presentation
 
 comment:  Pitch-Talk im Rahmen des OE_Sprints - Technische Weiterentwicklung des OER-Ökosystem

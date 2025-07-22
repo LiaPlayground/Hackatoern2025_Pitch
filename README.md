@@ -1,44 +1,17 @@
 <!--
+
 author:   Sebastian Zug, André Dietrich
-
+comment:  Pitch-Talk im Rahmen des OE_Sprints - Technische Weiterentwicklung des OER-Ökosystem
 email:    Sebastian.Zug@informatik.tu-freiberg.de
-
 version:  0.0.3
 
 language: de
-
 narrator: Deutsch Male
-
 edit:     true
-
 mode:     Presentation
 
-comment:  Pitch-Talk im Rahmen des OE_Sprints - Technische Weiterentwicklung des OER-Ökosystem
-
 logo:     ./images/logo.png
-
-translation: Deutsch  translations/German.md
-
-@style
-.flex-container {
-    display: flex;
-    flex-wrap: wrap; /* Allows the items to wrap as needed */
-    align-items: stretch;
-    gap: 20px; /* Adds both horizontal and vertical spacing between items */
-}
-
-.flex-child { 
-    flex: 1;
-    margin-right: 20px; /* Adds space between the columns */
-}
-
-@media (max-width: 600px) {
-    .flex-child {
-        flex: 100%; /* Makes the child divs take up the full width on slim devices */
-        margin-right: 0; /* Removes the right margin */
-    }
-}
-@end
+link:     ./style.css
 
 -->
 
@@ -68,6 +41,8 @@ _ Der Quellcode kann des Open Source Dokuments ist unter [Link](https://github.c
 
 > [LiaScript](https://liascript.github.io/) ist eine Auszeichnungssprache für die Gestaltung von  interaktiven Lehr-Lern-Inhalte. Der Lehrende definiert den Inhalt in einer Markdown-ähnlichen Syntax, die im Browser gerendert wird. 
 
+--------------------------------------------
+
 __Tabellen als Grafiken__
 
 | X | B(y) | C(y) |
@@ -93,6 +68,14 @@ __Kombinationsmöglichkeiten__
 
     {{|> US English Male}}
 Although [[ him | (he)]] usually [[walk |(walks)]] to school, today [[ him | (he)]] [[ are | (is)]] taking the bus because it [[ rain | (rains)]].
+
+__Externe interaktive Elemente__
+
+??[](https://phet.colorado.edu/sims/html/wave-interference/latest/wave-interference_all.html)
+
+??[](https://tinyurl.com/25ux6rr8)
+
+--------------------------------------------
 
 > Die Stärke von LiaScript liegt in der Idee der einfachen Sprache, die beliebig erweitert werden kann und es erlaubt Elemente manigfaltig zur rekombinieren. Für den Austausch und die Erstellung von Lehrinhalten wird nur eine Textdatei benötigt, die Interpretation der Kurse erfolgt direkt im Browser, ohne zentralen Server oder Nutzermanagement. Damit unterstützt LiaScript die Idee von Open Educational Resources (OER).
 
@@ -140,43 +123,40 @@ Beispiele für die Einbettung von LiaScript ins sächsische OPAL-LMS finden sich
 
 ## Sprintziel
 
-> __Das Vorhaben wandelt den Exporter in eine lokale bzw. optionale Cloud-Server-App mit grafischer Oberfläche um und erweitert den Funktionsumfang um xAPI-Unterstützung.. Sämtliche Export-Parameter werden über ein intuitives Menü zugänglich gemacht.__
+
 
 <section class="flex-container">
 
 <!-- class="flex-child" style="min-width: 250px;" -->
-1. Bedarfsanalye
-2. Exporter-Refaktorierung
-3. Konfig-/Profil-Management JSON-Schemas
-4. UI/UX-Konzept & Wireframes
-5. Frontend-Implementierung
-6. Packaging & Distribution
-7. Tests
-8. xAPI-Exportpfad
-9. H5P-Bridge auf Basis xAPI
-10. LMS-Profilbibliothek
-11. Cross-Plattform- & LMS-Tests mit OER Autoren
-12. Evaluation mit Probanden
-13. Dokumentation & Screencasts
+
+<div class="flex-child" style="min-width: 250px;">
+
+> __Das Vorhaben wandelt den Exporter in eine lokale bzw. optionale Cloud-Server-App mit grafischer Oberfläche um und erweitert den Funktionsumfang um xAPI-Unterstützung.__
+
+![Realisierung](./images/Konzept.png "Elemente der Umsetzungsidee")
+
+</div>
 
 <!-- class="flex-child" style="min-width: 250px;" -->
-![Goal "Beispielhafte Ansicht des LiaScript Exporters als Webservice"](./images/goal.jpg)
+![Goal](./images/goal_small.jpg "Mögliche Ansicht des LiaScript Exporters in der Variante als Webservice")
 
 </section>
 
 
-## Ergebnis 
+## Nachhaltigkeit 
 
-<section class="flex-container">
-
-<!-- class="flex-child" style="min-width: 250px;" -->
-!?[Twillo](https://www.youtube.com/watch?v=2_aE9SwN1Rs)
-
-<!-- class="flex-child" style="min-width: 250px;" -->
 > + __Niederschwelliger Einstieg__: Lehrkräfte können bestehende LiaScript OER Materialien per Mausklick exportieren und unmittelbar in „ihrem“ LMS hochladen.
 > + __Mehrwert durch Analytik__: SCORM- und xAPI-Pakete schreiben Fortschritts- und Interaktionsdaten zurück; so lassen sich Kurse evidenzbasiert qualitativ verbessern.
 > + __Geräte- und Plattformvielfalt__: Durch plattformübergreifende Paketierung (z. B. via pkg) der Kurse entstehen lauffähige Installationen für Windows, macOS, Linux und Android.
 
-</section>
 
-> Wir freuen uns auf Ihre Fragen!
+            {{1-2}}
+***********************************************
+
+!?[Twillo](https://www.youtube.com/watch?v=2_aE9SwN1Rs)
+
+
+<!-- style="background-color: yellow; font-size: 16ptx" -->
+> __Wir freuen uns auf Ihre Fragen!__
+
+***********************************************

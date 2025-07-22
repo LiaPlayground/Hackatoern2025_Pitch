@@ -49,7 +49,7 @@ translation: Deutsch  translations/German.md
 <section class="flex-container">
 
 <!-- class="flex-child" style="min-width: 250px;" -->
-> <h2>Wettbewerbsbeitrag </h2> 
+> Wettbewerbsbeitrag für
 >
 > <h2>OE_Sprints - Technische Weiterentwicklung des OER-Ökosystem</h2>
 >
@@ -64,7 +64,7 @@ translation: Deutsch  translations/German.md
 
 _ Der Quellcode kann des Open Source Dokuments ist unter [Link](https://github.com/SebastianZug/LiaScript_Workshop_Lehrende_an_Schulen/blob/main/Motivation.md) zu finden._
 
-## Ausgangslage 
+## Grundkonzept von LiaScript 
 
 > [LiaScript](https://liascript.github.io/) ist eine Auszeichnungssprache für die Gestaltung von  interaktiven Lehr-Lern-Inhalte. Der Lehrende definiert den Inhalt in einer Markdown-ähnlichen Syntax, die im Browser gerendert wird. 
 
@@ -77,7 +77,7 @@ __Tabellen als Grafiken__
 
 __Quizze__
 
-Wann wurde die TU Bergakademie gegründet?
+Wann wurde die TU Bergakademie Freiberg gegründet?
 
 - [(X)] 1765
 - [( )] 1896
@@ -96,11 +96,27 @@ Although [[ him | (he)]] usually [[walk |(walks)]] to school, today [[ him | (he
 
 > Die Stärke von LiaScript liegt in der Idee der einfachen Sprache, die beliebig erweitert werden kann und es erlaubt Elemente manigfaltig zur rekombinieren. Für den Austausch und die Erstellung von Lehrinhalten wird nur eine Textdatei benötigt, die Interpretation der Kurse erfolgt direkt im Browser, ohne zentralen Server oder Nutzermanagement. Damit unterstützt LiaScript die Idee von Open Educational Resources (OER).
 
-!?[Twillo](https://www.youtube.com/watch?v=2_aE9SwN1Rs)
+## Alles wunderbar, oder ... ?
 
-## Aber ...
+                           {{0-1}}
+*************************************************************
 
-> Lehrende wünschen häufig eine Integration von Inhalten in bestehende Lernmanagementsysteme (LMS), Studierende fragen nach Skripten in Form von PDF-Dokumenten, um Notizen machen zu können.
+<section class="flex-container">
+
+<!-- class="flex-child" style="min-width: 250px;" -->
+![](./images/AnkuendigungLehrerWorkshop.jpg "Ankündigung Lehrer Workshop")
+
+<!-- class="flex-child" style="min-width: 250px;" -->
+![](./images/AnkuendigungGeschichteWorkshop.jpg "https://digigw.hypotheses.org/4396")
+
+</section>
+
+> __Lehrende wünschen häufig eine Integration von Inhalten in bestehende Lernmanagementsysteme (LMS), Studierende fragen nach Skripten in Form von PDF-Dokumenten, um Notizen machen zu können.__
+
+*************************************************************
+
+                           {{1-2}}
+*************************************************************
 
 > Entsprechend wurde das Kommandozeilen-Tool [liaex](https://github.com/LiaScript/LiaScript-Exporter) entwickelt, das LiaScript in SCORM, IMS, PDF, Progressive Web App (PWA) und andere Formate exportiert.
 
@@ -119,12 +135,29 @@ project/Lizenz.md
 
 Beispiele für die Einbettung von LiaScript ins sächsische OPAL-LMS finden sich unter [LiaScript Meets OER](https://bildungsportal.sachsen.de/opal/auth/RepositoryEntry/28960423936?5).
 
+*************************************************************
+
+
 ## Sprintziel
+
+> __Das Vorhaben wandelt den Exporter in eine lokale bzw. optionale Cloud-Server-App mit grafischer Oberfläche um und erweitert den Funktionsumfang um xAPI-Unterstützung.. Sämtliche Export-Parameter werden über ein intuitives Menü zugänglich gemacht.__
 
 <section class="flex-container">
 
 <!-- class="flex-child" style="min-width: 250px;" -->
-> Das Vorhaben wandelt den Exporter in eine lokale bzw. optionale Cloud-Server-App mit grafischer Oberfläche um und erweitert den Funktionsumfang um xAPI-Unterstützung.. Sämtliche Export-Parameter werden über ein intuitives Menü zugänglich gemacht.
+1. Bedarfsanalye
+2. Exporter-Refaktorierung
+3. Konfig-/Profil-Management JSON-Schemas
+4. UI/UX-Konzept & Wireframes
+5. Frontend-Implementierung
+6. Packaging & Distribution
+7. Tests
+8. xAPI-Exportpfad
+9. H5P-Bridge auf Basis xAPI
+10. LMS-Profilbibliothek
+11. Cross-Plattform- & LMS-Tests mit OER Autoren
+12. Evaluation mit Probanden
+13. Dokumentation & Screencasts
 
 <!-- class="flex-child" style="min-width: 250px;" -->
 ![Goal "Beispielhafte Ansicht des LiaScript Exporters als Webservice"](./images/goal.jpg)
@@ -134,8 +167,16 @@ Beispiele für die Einbettung von LiaScript ins sächsische OPAL-LMS finden sich
 
 ## Ergebnis 
 
-+ Niederschwelliger Einstieg: Lehrkräfte können bestehende LiaScript OER Materialien per Mausklick exportieren und unmittelbar in „ihrem“ LMS hochladen.
-+ Mehrwert durch Analytik: SCORM- und xAPI-Pakete schreiben Fortschritts- und Interaktionsdaten zurück; so lassen sich Kurse evidenzbasiert qualitativ verbessern.
-+ Geräte- und Plattformvielfalt: Durch plattformübergreifende Paketierung (z. B. via pkg) der Kurse entstehen lauffähige Installationen für Windows, macOS, Linux und Android.
+<section class="flex-container">
+
+<!-- class="flex-child" style="min-width: 250px;" -->
+!?[Twillo](https://www.youtube.com/watch?v=2_aE9SwN1Rs)
+
+<!-- class="flex-child" style="min-width: 250px;" -->
+> + __Niederschwelliger Einstieg__: Lehrkräfte können bestehende LiaScript OER Materialien per Mausklick exportieren und unmittelbar in „ihrem“ LMS hochladen.
+> + __Mehrwert durch Analytik__: SCORM- und xAPI-Pakete schreiben Fortschritts- und Interaktionsdaten zurück; so lassen sich Kurse evidenzbasiert qualitativ verbessern.
+> + __Geräte- und Plattformvielfalt__: Durch plattformübergreifende Paketierung (z. B. via pkg) der Kurse entstehen lauffähige Installationen für Windows, macOS, Linux und Android.
+
+</section>
 
 > Wir freuen uns auf Ihre Fragen!

@@ -35,7 +35,8 @@ link:     ./style.css
 
 --------------------------------------------
 
-_ Der Quellcode kann des Open Source Dokuments ist unter [Link](https://github.com/SebastianZug/LiaScript_Workshop_Lehrende_an_Schulen/blob/main/Motivation.md) zu finden._
+_ Der Quellcode kann des Open Source Dokuments ist unter [Link](https://github.com/LiaPlayground/Hackatoern2025_Pitch/blob/main/README.md) zu finden._
+
 
 ## Grundkonzept von LiaScript 
 
